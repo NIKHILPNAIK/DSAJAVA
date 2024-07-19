@@ -9,7 +9,9 @@ public class VarArgs {
     }
     static void fun(int...v)//This allows to add variables of arugments
     {
-        System.out.println(Arrays.toString(v));
+        for (int num : v) {
+            System.out.println(num + "");
+        }
     }
     static void fun1(int a, int b,String...v)//variable must always be at the end
     {
