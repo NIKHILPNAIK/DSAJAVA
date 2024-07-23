@@ -31,15 +31,20 @@ public class MultiDimensions {
                 arr[row][col]= sc.nextInt();
             }
         }
-        for(int row=0; row<arr.length;row++){
+/*        for(int row=0; row<arr.length;row++){
             //for each column in the row
             for(int col=0; col<arr[row].length; col++) //arr[row] length so that will be below that line
             {
                 System.out.print(arr[row][col]+" ");
             }
             System.out.println();
+        }*/
+        /*for (int row =0; row<arr.length;row++){
+            System.out.println(Arrays.toString(arr[row]));
         }
-
-
+*/
+        for(int[] num: arr){
+            System.out.println(Arrays.toString(num)+" "); //Enhanced for loop for the better complexity
+        }
     }
 }
