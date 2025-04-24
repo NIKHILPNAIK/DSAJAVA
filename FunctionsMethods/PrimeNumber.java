@@ -7,6 +7,8 @@ public class PrimeNumber {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         boolean ans = Isprime(n);
+
+
         System.out.println(ans);
 
 
